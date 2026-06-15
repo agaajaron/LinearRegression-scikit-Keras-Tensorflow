@@ -1,19 +1,30 @@
-Data Science Regression Projects Samples 
+﻿# LinearRegression-scikit-Keras-Tensorflow
 
-Data visualisation, univariate analysis, bivariate analysis, Sklearn, Statsmodels
-Using Scikit-learn, Keras and TensorFlow. 
+Linear regression and neural network regression projects using Scikit-learn, Keras, and TensorFlow.
 
+## Projects
 
-1. ABtestStatistics.ipynb
-   
-Exmaple of dataset analysis, vizalization and AB test experiment.
+### [abteststatistics](abteststatistics)
+E-news Express Project
 
+### [classification-casestudy-bank](classification-casestudy-bank)
+In this dataset, each entry represents a person who takes credit from a bank. Each person is classified as a good or bad
 
-2. Classification-CaseStudy-Bank.ipynb
-3. CreditCardDefaultPrediction.ipynb
-   
-Objective: Build a predictive model on this data to help the bank decide on whether to approve a loan to a prospective applicant.
+### [creditcarddefaultprediction](creditcarddefaultprediction)
+Credit Card Default Data
 
-4. Neural-Netoworks-car-prices-prediction.ipynb
+### [neural-networks-car-prices-prediction](neural-networks-car-prices-prediction)
+Neural Network aplication for prediction of used car prices.
 
-TensorFlow, Keras Neural Network model for predicting used car prices.
+## Project Structure
+
+```
+<project>/
+├── data/
+├── notebooks/
+├── src/
+├── models/
+└── requirements.txt
+```
+
+The `src/*.py` files are cell-marker format compatible with VS Code and Jupyter interactive mode.
